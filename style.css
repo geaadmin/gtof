@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+svg {
+  max-width: 100%;
+}
+
+.container {
+  width: 96%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.nc-icon,
+.sccv-icon,
+.lce-icon,
+.pvs-icon,
+.np-icon,
+.nm-icon {
+  transition: all 0.2s ease-in;
+}
+
+.pvs-icon:hover,
+.sccv-icon:hover,
+.nc-icon:hover,
+.nm-icon:hover,
+.np-icon:hover,
+.lce-icon:hover {
+  cursor: pointer;
+}
+
+.labels {
+  display: none;
+}
+
+.pvs-info,
+.nc-info,
+.np-info,
+.nm-info,
+.sccv-info,
+.lce-info {
+  background: #fff;
+  padding: 1em;
+  width: 18em;
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.375);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.dim {
+  opacity: 0.25;
+}
